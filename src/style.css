@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  background-color: chocolate;
+}
+.logo-header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-transform: uppercase;
+}
+.form {
+  background-color: darkorange;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.packing {
+  background-color: rgb(53, 5, 5);
+  height: 70vh;
+  color: rgb(241, 241, 240);
+}
+.packing > li {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+.stats {
+  background-color: aquamarine;
+  height: 10vh;
+}
+.stats-header {
+  display: flex;
+  justify-content: center;
+}
+.close {
+  color: red;
+  margin: 1px;
+}
